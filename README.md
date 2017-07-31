@@ -5,4 +5,4 @@
 
 [Урок 12](https://webplaneta-com.github.io/lesson_12/ "Моя готовая домашка") - Работа с репозиторием на github
 
-[Урок 13](webplaneta-com.github.io/lesson_13/ "Домашак с формой")
+[Урок 13](webplaneta-com.github.io/lesson_13/ "Домашак с формой") - Домашка с формой
