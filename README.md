@@ -12,3 +12,6 @@
 [Урок 13](webplaneta-com.github.io/lesson_13/ "Домашак с формой") - Домашка с формой
 
 [Урок 14](https://webplaneta-com.github.io/lesson%2014/ "Домашка со шрифтами") - Подключение шрифтов
+
+[Урок 15](https://webplaneta-com.github.io/lesson_15/) - Эффекты при наведении
+
