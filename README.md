@@ -17,3 +17,5 @@
 
 [Урок 15](https://webplaneta-com.github.io/lesson_15/) - Эффекты при наведении
 
+[Урок 16](webplaneta-com.github.io/lesson_16/) - Слайдер
+
