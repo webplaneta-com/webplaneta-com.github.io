@@ -1,0 +1,16 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #262626;
+}
+h1 {
+	margin: 15%;
+	color: #fff;
+}
+.header {
+	display: block;
+	text-align: center;
+}
+.header-main {
+	display: inline-block;
+}
