@@ -21,3 +21,5 @@
 
 [Урок 16](webplaneta-com.github.io/lesson_16/) - Слайдер
 
+[Урок 17](webplaneta-com.github.io/lesson_17/) - Всплывающие окна
+
