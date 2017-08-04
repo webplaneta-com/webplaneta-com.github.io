@@ -215,10 +215,34 @@ section {
   .main {
     background-position: top left;
   }
+  .main-title h1 {
+    font-size: 26px;
+  }
+  .main-title p {
+    font-size: 18px;
+  }
+  .main-title span {
+    display: inline-block;
+    padding: 2rem 4rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    background-color: #45b613;
+    text-align: center;
+  }
+  .main-title span strong {
+    font-size: 2rem;
+    font-family: 'ProximaNova_bold', sans-serif;
+  }
+  .main-trigger {
+    font-size: 18px;
+  }
   .header {
     text-align: center;
   }
   .wrap-block {
     text-align: center;
+  }
+  .section-header {
+    font-size: 22px;
   }
 }

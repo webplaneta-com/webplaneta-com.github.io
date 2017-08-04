@@ -261,11 +261,40 @@ section {
 @media (max-width: 767px) {
 	.main {
 		background-position: top left;
+		&-title {
+			h1 {
+				font-size: 26px;
+			}
+			p {
+				font-size: 18px;
+			}
+			span {
+				display: inline-block;
+				padding: 2rem 4rem;
+				font-size: 1.4rem;
+				color: @light;
+				background-color: @icons-color;
+				text-align: center;
+				// Цыфра 300 рублей
+				strong {
+					font-size: 2rem;
+					.bold();
+				}
+			}
+		}
+		&-trigger {
+			font-size: 18px;
+		}
 	}
 	.header {
 		text-align: center;
 	}
 	.wrap-block {
 		text-align: center;
+	}
+	.section {
+		&-header {
+			font-size: 22px;
+		}
 	}
 }
