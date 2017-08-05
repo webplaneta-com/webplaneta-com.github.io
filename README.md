@@ -23,3 +23,5 @@
 
 [Урок 17](webplaneta-com.github.io/lesson_17/) - Всплывающие окна
 
+[Урок 18](https://webplaneta-com.github.io/lesson_18/) - Табы
+
