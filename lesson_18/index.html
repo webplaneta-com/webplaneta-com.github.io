@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Урок 17 - Табы</title>
+</head>
+<body>
+  
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="header">
+            <div class="header-okno">
+              <div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs header-nav">
+                  <li role="presentation" class="active">
+                    <a class="header-in" href="#home" aria-controls="home" role="tab" data-toggle="tab">Sign-In</a>
+                  </li>
+                  <li role="presentation">
+                    <a class="header-up" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Sign-Up</a>
+                  </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="home">
+                    <div class="header-box">
+                      <form class="header-form" action="#">
+                        <input class="header-input" type="text" placeholder="Username">
+                        <input class="header-input" type="text" placeholder="Password">
+                        <a href="#">Forgot your password?</a>
+                            <div class="col-md-6">
+                              <label class="header-form-check">
+                                <input class="header-form-check-n" type="checkbox">Remember me
+                              </label>
+                            </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="profile">
+                    <div class="header-box">
+                      <form class="header-form" action="#">
+                        <input class="header-input" type="text" placeholder="Username">
+                        <input class="header-input" type="text" placeholder="Password">
+                        <a href="#">Forgot your password?</a>
+                        <label class="header-form-check">
+                          <input class="header-form-check-n" type="checkbox">Remember me
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- /Nav tabs -->
+              </div>
+            </div>
+              <div class="col-md-12 header-form-sign">
+                <a href="#">Sing-In</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
