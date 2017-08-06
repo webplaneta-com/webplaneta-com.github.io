@@ -9,7 +9,7 @@
 
 [Практика часть 4](https://webplaneta-com.github.io/Practice/Practice%204%20part/)
 
-[Практика часть 6](webplaneta-com.github.io/Practice/Practice 6 part/)
+[Практика часть 6](https://webplaneta-com.github.io/Practice/Practice%206%20part/)
 
 [Личные наработки - Исчезновиние заголовка в виде дыма](https://webplaneta-com.github.io/doom/ "Исчезновиние заголовка в виде дыма")
 
