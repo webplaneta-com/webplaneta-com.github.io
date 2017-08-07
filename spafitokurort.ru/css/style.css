@@ -1540,11 +1540,13 @@ color:#FFF !important;
 	.banner-text h2 {
 		padding: 8px 14px;
 		font-size: 16px;
+    margin: 25px 0;
 	}
 	.banner-text h1 {
 		font-size: 17.5px;
 		line-height: 30px;
 		padding-top:5px;
+    margin-bottom: 10px;
 	}
 	.arrow {
 		padding: 20px 0px 0px 0px;
@@ -1606,9 +1608,17 @@ color:#FFF !important;
 	}
 }
 @media(max-width:375px){
-	.banner-text h1 {
-		font-size: 16px;
-	}
+	.banner-text h2 {
+    padding: 8px 14px;
+    font-size: 16px;
+    margin: 25px 0;
+  }
+  .banner-text h1 {
+    font-size: 17.5px;
+    line-height: 30px;
+    padding-top:5px;
+    margin-bottom: 10px;
+  }
 	.services h4 {
 		font-size: 16px;
 	}
@@ -1709,4 +1719,15 @@ color:#FFF !important;
 	.footer-w3 p {
 		font-size: 12px;
 	}
+  .banner-text h2 {
+    padding: 8px 14px;
+    font-size: 16px;
+    margin: 25px 0;
+  }
+  .banner-text h1 {
+    font-size: 17.5px;
+    line-height: 30px;
+    padding-top:5px;
+    margin-bottom: 10px;
+  }
 }
