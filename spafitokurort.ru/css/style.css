@@ -1119,7 +1119,7 @@ color:#FFF !important;
 		padding-bottom:0;
 	}
 	.banner-text h1 {
-		font-size: 33px;
+		font-size: 28px;
 	}
 	.arrow {
 		padding: 85px 0px 0px 0px;
@@ -1135,6 +1135,9 @@ color:#FFF !important;
 	.banner-agileits {
 		min-height: 475px;
 	}
+  .banner-text h1 {
+    font-size: 26px;
+  }
 	.navbar-toggle {
 		margin-top: 0px;
 		margin-right: 320px;
@@ -1220,11 +1223,15 @@ color:#FFF !important;
 		margin: 70px auto 0px auto;
 	}
 	.banner-text h1 {
-		font-size: 30px;
+		font-size: 26px;
 	}
 	.arrow {
 		padding: 35px 0px 0px 0px;
 	}
+  .arrow img {
+    width: 5%;
+    margin-bottom: 10px;
+  }
 	.navbar-toggle {
 		margin-right: 285px;
 	}
@@ -1276,6 +1283,10 @@ color:#FFF !important;
 	.arrow {
 		padding: 55px 0px 0px 0px;
 	}
+  .arrow img {
+    width: 5%;
+    margin-bottom: 10px;
+  }
 	.services {
 		padding-bottom: 50px;
 	}
@@ -1337,6 +1348,10 @@ color:#FFF !important;
   .staff-img img {
     width: 90%;
   }
+  .arrow img {
+    width: 5%;
+    margin-bottom: 10px;
+  }
 }
 @media(max-width:568px){
 	.banner-agileits {
@@ -1356,6 +1371,7 @@ color:#FFF !important;
 	}
 	.arrow img {
 		width: 5%;
+    margin-bottom: 10px;
 	}
 	.services h3,.gallery h3,.staff h3{
 		font-size:35px;
@@ -1433,7 +1449,11 @@ color:#FFF !important;
 	.banner-text h1 {
 		font-size: 22px;
 		line-height: 30px;
+    margin-bottom: 10px;
 	}
+  .banner-text h2 {
+    margin: 25px 0;
+  }
 	.banner-text {
 		width: 100%;
 		margin: 40px auto 0px auto;
