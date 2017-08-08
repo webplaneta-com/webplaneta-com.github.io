@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/Dark.jpg) center center no-repeat;
+}
+.section {
+	text-align: center;
+}
+.header {
+	top: 100px;
+	display: inline-block;
+	width: 800px;
+	height: 500px;
+	position: relative;
+	text-align: center;
+	background: url(../img/fon2.png) center no-repeat;
+	background-size: cover;
+	z-index: 0;
+	&-okno {
+		margin: 55px 85px;
+		width: 630px;
+		height: 400px;
+		background-color: #0497c3;
+		border-top: 1px solid #89d5ee;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+	}
+	&-nav {
+		border: none;
+	}
+	&-nav a {
+		top: -35px;
+		margin: 0;
+		padding: 0;
+		left: 20px;
+		border: none;
+		font-size: 24px;
+		background-color: #0497c3;
+	}
+	&-nav li {
+		margin-left: 10px;
+	}
+	&-nav li a {
+		padding: 0 15px 0 15px;
+		background-color: #fff;
+		color: #333;
+		border-bottom: 1px solid #047ca0;
+	}
+	&-nav li a:hover {
+		border-bottom: 1px solid #047ca0;
+	}
+	&-box {
+		margin: -15px 25px 25px 25px;
+		width: 580px;
+		height: 360px;
+		background-color: #000000;
+		border: 1px solid #7dd7f4;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+	}
+	&-form {
+		margin-top: 70px;
+		a {
+			margin-left: 70px;
+			display: block;
+			text-align: left;
+			font-size: 15px;
+			color: #c51f03;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		&-sing a {
+			padding: 10px 20px;
+			display: block;
+			color: #fff;
+			text-align: right;
+		}
+		&-check {
+			margin-top: 50px;
+			display: block;
+			text-align: left;
+			margin-left: 53px;
+		}
+		&-sign {
+			margin-top: -130px;
+			margin-left: -60px;
+			text-align: right;
+			a {
+				padding: 10px 35px 10px 25px;
+				background-color: #950d02;
+				text-shadow: 1px 1px 2px black, 0 0 1em #fff;
+				color: #fff;
+				font-size: 24px;
+			}
+		}
+		&-text {
+			margin-left: 80%;
+			display: inline-block;
+			padding: 10px 20px;
+			font-size: 24px;
+			color: #ffffff;
+		}
+	}
+	&-input {
+		margin: 0 45px 25px 45px;
+		width: 480px;
+		height: 60px;
+		font-size: 24px;
+		padding-left: 25px;
+		color: #ffffff;
+		background: url(../img/Shape.png) center no-repeat;
+		border: 1px solid #000000;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		-ms-border-radius: 5px;
+		-o-border-radius: 5px;
+		border-radius: 5px;
+		display: block;
+	}
+	&-sing {
+		color: #fff;
+	}
+}
+.header:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	z-index: -1;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #0497c3;
+	border: none;
+	border-top: 1px solid #89d5ee;
+	-webkit-border-radius-top: 5px;
+	-moz-border-radius-top: 5px;
+	-ms-border-radius-top: 5px;
+	-o-border-radius-top: 5px;
+	border-radius-top: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 2px black;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 1px;
+    line-height: normal;
+}
