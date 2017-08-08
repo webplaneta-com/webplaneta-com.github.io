@@ -29,3 +29,4 @@
 
 [Урок 18](https://webplaneta-com.github.io/lesson_18/) - Табы
 
+[Урок 19](https://webplaneta-com.github.io/lesson_19/) - Animate
