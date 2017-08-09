@@ -1,0 +1,247 @@
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'MonotypeCorsiva';
+}
+@font-face {
+  font-family: 'MonotypeCorsiva';
+  src: url('../fonts/MonotypeCorsiva.eot');
+  src: url('../fonts/MonotypeCorsiva.eot?#iefix') format('embedded-opentype'), url('../fonts/MonotypeCorsiva.woff2') format('woff2'), url('../fonts/MonotypeCorsiva.woff') format('woff'), url('../fonts/MonotypeCorsiva.ttf') format('truetype'), url('../fonts/MonotypeCorsiva.svg#MonotypeCorsiva') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+.header {
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  display: table;
+}
+.header-line {
+  text-align: center;
+}
+.header-line img {
+  display: inline-block;
+  padding: 25px 15px;
+  background-color: rgba(161, 161, 161, 0.3);
+  border-radius: 10px;
+}
+.header-box {
+  display: block;
+}
+.header-box a {
+  top: -40px;
+  padding: 0 50px;
+  font-size: 32px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px #397FB2;
+  color: #000024;
+  text-decoration: none;
+}
+.header-box a:hover {
+  text-shadow: 1px 1px 2px #000024;
+  color: #2E6B98;
+}
+.header video {
+  position: relative;
+}
+.header-box-2 {
+  margin-top: 60px;
+  padding: 10px;
+  display: inline-block;
+  text-shadow: 1px 1px 2px #397FB2;
+  color: #000024;
+  background-color: rgba(161, 161, 161, 0.6);
+  border-radius: 10px;
+}
+.header-box-2 h2 {
+  padding: 0 50px;
+  font-size: 80px;
+}
+.header-line-2 h3 {
+  padding: 0 30px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 70px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000024;
+  background-color: rgba(161, 161, 161, 0.6);
+  border-radius: 20px;
+}
+.header-btn {
+  display: block;
+  text-align: center;
+}
+.header-btn button {
+  padding: 12px 40px;
+  font-size: 28px;
+  font-weight: 900;
+  text-shadow: 1px 1px 2px #397FB2;
+  color: #000024;
+  background-color: rgba(161, 161, 161, 0.4);
+  border: 2px solid #000024;
+  border-radius: 20px;
+}
+.header-btn button:hover {
+  -webkit-box-shadow: 1px 1px 1px 2px #397FB2;
+          box-shadow: 1px 1px 1px 2px #397FB2;
+}
+.header-botton {
+  margin-top: 35px;
+}
+.header-botton img {
+  padding: 5px;
+  width: 4%;
+}
+.header-botton img:hover {
+  border: 2px solid #000024;
+  -webkit-box-shadow: 1px 1px 1px #397FB2;
+          box-shadow: 1px 1px 1px #397FB2;
+  border-radius: 20px;
+}
+@media (max-width: 1169px) {
+  .header-box a {
+    font-size: 28px;
+  }
+  .header-line img {
+    padding: 20px 10px;
+  }
+  .header-box-2 h2 {
+    font-size: 65px;
+  }
+  .header-line-2 h3 {
+    font-size: 22px;
+  }
+  .header-btn button {
+    padding: 10px 30px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 991px) {
+  .header-box a {
+    padding: 0 30px;
+    font-size: 24px;
+  }
+  .header-line img {
+    padding: 15px 8px;
+  }
+  .header-box-2 h2 {
+    font-size: 55px;
+  }
+  .header-line-2 h3 {
+    font-size: 20px;
+  }
+  .header-btn button {
+    padding: 10px 30px;
+    font-size: 22px;
+  }
+  .header-botton img {
+    width: 5%;
+  }
+}
+@media (max-width: 749px) {
+  .header-box a {
+    display: none;
+  }
+  .header-line img {
+    padding: 10px 6px;
+  }
+  .header-box-2 h2 {
+    font-size: 40px;
+  }
+  .header-line-2 h3 {
+    font-size: 18px;
+  }
+  .header-btn button {
+    padding: 8px 22px;
+    font-size: 22px;
+  }
+  .header-botton img {
+    width: 6%;
+  }
+}
