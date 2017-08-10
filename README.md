@@ -37,3 +37,4 @@
 
 [Урок 20](https://webplaneta-com.github.io/lesson_20/) - Видео фон
 
+[Урок 21](webplaneta-com.github.io/lesson_21/) - Paralax
