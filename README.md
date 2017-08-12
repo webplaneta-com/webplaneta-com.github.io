@@ -40,3 +40,5 @@
 [Урок 20](https://webplaneta-com.github.io/lesson_20/) - Видео фон
 
 [Урок 21](webplaneta-com.github.io/lesson_21/) - Paralax
+
+[Урок 22](https://webplaneta-com.github.io/lesson_22/) - Google map
